@@ -8,6 +8,10 @@ ubuntu-base:
 ubuntu-base-docker:
 	make -C ubuntu-base-docker
 
+.PHONY: ubuntu-base-containerd
+ubuntu-base-containerd:
+	make -C ubuntu-base-containerd
+
 .PHONY: alpine-base
 alpine-base:
 	make -C alpine-base
